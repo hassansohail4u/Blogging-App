@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log in to Blogging App</title>
+    <link rel="stylesheet" href="./styling/login.css">
+  </head>
+  <body>
+
+
+    <!-- Login User -->
+
+
+     <div class="container">
+      <span class="bg-animate"></span>
+      <span class="bg-animate2"></span>
+    
+      <div class="login-div login">
+        <h2 class="heading animation" style="--i:0; --j:21;">Log In</h2>
+      <form id="form-login">
+      <div class="input-box animation" style="--i:1; --j:22;">
+        <input class="input-field" type="text" id="login-email" required>
+        <label class="form-label" for="login-email">Email</label>
+        <i class="fa-solid fa-envelope icons"></i>
+      </div>
+
+      <div class="input-box animation" style="--i:2; --j:23;">
+        <input class="input-field" type="password" id="login-password" required>
+        <label class="form-label" for="login-password">Password</label>
+        <i class="fa-solid fa-lock icons"></i>
+      </div>
+
+        <button type="submit" class="btn animation" style="--i:3; --j:24;">Log In</button>
+
+        <div class="register-link-div animation" style="--i:4; --j:25;">
+          <p class="signup-para">Don't have an account? <a href="#" class="register-login-link" id="register-link">Sign up</a></p>
+        </div>
+        </form>
+
+      </div>
+
+      <div class="info-text login">
+        <h2 class="info-heading animation" style="--i:0; --j:20;">Welcome Back!</h2>
+        <p class="info-para animation" style="--i:1; --j:21;">Log in to continue your blogging journey today</p>
+      </div>
+
+
+
+
+
+      <div class="login-div register">
+        <h2 class="heading animation" style="--i:21; --j:0;">Sign Up</h2>
+      <form id="form-register">
+        <div class="input-box animation" style="--i:22; --j:1;">
+          <input class="input-field" type="text" id="signup-username" required>
+          <label class="form-label" for="signup-username">Username</label>
+          <i class="fa-solid fa-user icons"></i>
+        </div>
+      <div class="input-box animation" style="--i:23; --j:2;">
+        <input class="input-field" type="text" id="signup-email" required>
+        <label class="form-label" for="signup-email">Email</label>
+        <i class="fa-solid fa-envelope icons"></i>
+      </div>
+      <div class="input-box animation" style="--i:24; --j:3;">
+        <input class="input-field" type="password" id="signup-password" required>
+        <label class="form-label" for="signup-password">Password</label>
+        <i class="fa-solid fa-lock icons"></i>
+      </div>
+      <!-- for image uploading using cloudinary search on google cloudinary upload widget account banana ka bad side ma dashboard per click karinga to cloud name mil jai ga aur upload preset lene ka liya apko setting ma jakar upload ma jakar aik naya preset bana na hoga aur us ko uusigned rakhna hoga warna kaam nahi karaga aur cloudinary per kesa image upload kar sakta hai is ki video bhi cloudinary na banai hai us ka link ya hai https://www.youtube.com/watch?v=paiO6M2wBqE -->
+
+      <div class="animation btn-div" style="--i:25; --j:4;">
+        <button class="upload-profile-btn" id="upload_widget">Upload Profile</button>
+      </div>
+        <button type="submit" class="btn animation" style="--i:26; --j:5;">Sign Up</button>
+
+        <div class="register-link-div animation" style="--i:27; --j:6;">
+          <p class="signup-para --j:1;">Already have an account? <a href="#" class="register-login-link" id="login-link">Log in</a></p>
+        </div>
+        </form>
+
+      </div>
+
+      <div class="info-text register">
+        <h2 class="info-heading animation" style="--i:21; --j:0;">Welcome Back!</h2>
+        <p class="info-para animation" style="--i:22; --j:1;">Create an account to begin your blogging journey today.</p>
+      </div>
+      </div>
+
+    <script src="https://upload-widget.cloudinary.com/latest/global/all.js" type="text/javascript"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/45548dcf7e.js" crossorigin="anonymous"></script>
+    <script type="module" src="./scripts/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+.logout-btn{
+    font-size: 17px;
+    padding: 5px 25px;
+    border-radius: 30px;
+}
+
+#caption{
+    width: 550px;
+    height: 80px;
+    padding: 5px 10px;
+}
